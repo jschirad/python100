@@ -26,3 +26,9 @@ print(float("123.456"))
 print(type(str(123)))
 print(str(123))
 
+# F-strings
+# Data manipulation
+print(f"{123}")
+print(f"{123.456}")
+print(f"{'Hello'}")
+
