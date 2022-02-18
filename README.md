@@ -1,5 +1,6 @@
 # 100 Days of Code - Bootcamp
 
+![Python](/Python_logo_and_wordmark.svg.png)
 ### Lo que aprenderemos
 
 - Ser capaz de programar en Python como un profesional.
