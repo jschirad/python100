@@ -18,3 +18,20 @@
 
 - Aprender a usar frameworks modernos como Selenium, Beautiful Soup, Request, Flask, Pandas, NumPy, Scikit Learn, Plotly, Matplotlib, Seaborn.
 
+## Organización
+`
+➜  python100 tree .
+.
+├── day01
+│   ├── codigo.py
+│   ├── tarea.md
+│   └── teoria.md
+├── day02
+│   ├── codigo.py
+│   ├── tarea.md
+│   └── teoria.md
+└── day03
+    ├── codigo.py
+    ├── tarea.md
+    └── teoria.md
+`
