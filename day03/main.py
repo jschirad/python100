@@ -18,9 +18,12 @@ if int(age) < 12:
 elif int(age) >= 12 and int(age) < 18:
     print("Youth ticket is $10")
     bill = 10
+elif int(age) >= 18 and int(age) < 65:
+    print("Adult ticket is free")
 else:
     print("Adult ticket is $15")
     bill = 15
+
 
 print("Do you want a photo with your ticket?")
 photo = input()
