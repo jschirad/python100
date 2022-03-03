@@ -2,7 +2,8 @@
 
 https://docs.python.org/3/tutorial/controlflow.html
 
-# if / else conditional
+### if / else conditional
+~~~
 print("Welocome to the rollercoaster!")
 print("How old are you?")
 age = input()
@@ -10,8 +11,9 @@ if int(age) >= 18:
     print("You can ride the rollercoaster!")
 else:
     print("Sorry, you can't ride the rollercoaster!")
-
-# Rollercoster 2.0
+~~~
+### Rollercoster 2.0
+~~~
 print("Welocome to the rollercoaster!")
 bill = 0
 print("How old are you?")
@@ -36,3 +38,4 @@ if photo == "yes":
     print("Your bill is $" + str(bill))
 else:
     print("Your bill is $" + str(bill)) 
+~~~
