@@ -1,41 +1,41 @@
 # # First Challenge
 # # Even or Odd number
-# print("Type a number:")
-# number = input()
-# if int(number) % 2 == 0:
-#     print("The number is even")
-# else:
-#     print("The number is odd")
+print("Type a number:")
+number = input()
+if int(number) % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
 
 # # Secodn Challenge
 # # BMI Calculator
 
-# height = input("Enter your height in meters: ")
-# weight = input("Enter your weight in kilograms: ")
+height = input("Enter your height in meters: ")
+weight = input("Enter your weight in kilograms: ")
 
-# height_int = float(height)
-# weight_int = int(weight)
+height_int = float(height)
+weight_int = int(weight)
 
-# bmi = weight_int / (height_int ** 2)
+bmi = weight_int / (height_int ** 2)
 
-# bmi_result = int(bmi)
-# if bmi_result < 18.5:
-#     print("Your BMI is " + str(bmi_result) + " and you are underweight")
-# elif bmi_result >= 18.5 and bmi_result <= 24.9:
-#     print("Your BMI is " + str(bmi_result) + " and you are normal weight")
-# elif bmi_result >= 25 and bmi_result <= 29.9:
-#     print("Your BMI is " + str(bmi_result) + " and you are overweight")
-# else:
-#     print("Your BMI is " + str(bmi_result) + " and you are obese")
+bmi_result = int(bmi)
+if bmi_result < 18.5:
+    print("Your BMI is " + str(bmi_result) + " and you are underweight")
+elif bmi_result >= 18.5 and bmi_result <= 24.9:
+    print("Your BMI is " + str(bmi_result) + " and you are normal weight")
+elif bmi_result >= 25 and bmi_result <= 29.9:
+    print("Your BMI is " + str(bmi_result) + " and you are overweight")
+else:
+    print("Your BMI is " + str(bmi_result) + " and you are obese")
 
 # # Third Challenge
 # # Check if a year is a leap year
-# print("What year would you like to check?")
-# year = input()
-# if int(year) % 4 == 0 and int(year) % 100 == 0 or int(year) % 400 == 0:
-#     print("It is a leap year")
-# else:
-#     print("It is not a leap year")
+print("What year would you like to check?")
+year = input()
+if int(year) % 4 == 0 and int(year) % 100 == 0 or int(year) % 400 == 0:
+    print("It is a leap year")
+else:
+    print("It is not a leap year")
 
 # Fourth Challenge
 # Pizza Delivery

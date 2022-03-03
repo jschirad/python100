@@ -1,11 +1,15 @@
-#if / else conditional
-# print("Welocome to the rollercoaster!")
-# print("How old are you?")
-# age = input()
-# if int(age) >= 18:
-#     print("You can ride the rollercoaster!")
-# else:
-#     print("Sorry, you can't ride the rollercoaster!")
+# Dia 3 / 100 de Python
+
+https://docs.python.org/3/tutorial/controlflow.html
+
+# if / else conditional
+print("Welocome to the rollercoaster!")
+print("How old are you?")
+age = input()
+if int(age) >= 18:
+    print("You can ride the rollercoaster!")
+else:
+    print("Sorry, you can't ride the rollercoaster!")
 
 # Rollercoster 2.0
 print("Welocome to the rollercoaster!")
