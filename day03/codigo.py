@@ -75,3 +75,32 @@ else:
     print("No extra cheese")
 print("Your bill is $" + str(bill))
 
+
+# 5 Challenge
+
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+
+combined_string = name1 + name2
+lower_string = combined_string.lower()
+
+t = lower_string.count("t")
+r = lower_string.count("r")
+u = lower_string.count("u")
+e = lower_string.count("e")
+l = lower_string.count("l")
+o = lower_string.count("o")
+v = lower_string.count("v")
+
+true = t + r + u + e
+love = l + o + v + e
+
+love_result = str(true) + str(love)
+love_score = int(love_result)
+if love_score < 10 or love_score > 90:
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif love_score >= 40 and love_score <= 50:
+    print(f"Your score is {love_score}, you are alright together.")
+else:
+    print(f"Your score is {love_score}.")
