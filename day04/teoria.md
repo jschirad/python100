@@ -1,1 +1,0 @@
-# Dia 1 / 100 de Python
