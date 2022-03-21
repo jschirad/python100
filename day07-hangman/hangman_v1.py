@@ -28,13 +28,3 @@ for i in random_word:
     else:
         print("     Sorry, the letter is not in the word.")
 
-# while not guion == random_word:
-#     if guess_letter in random_word:
-#         print("     Good job! The letter is in the word!")
-
-#         guion = guion.replace("_", guess_letter,)
-#         print("     The word is: ", guion, "\n")
-#     else:
-#         print("     Sorry, but the letter is not in the word.")
-#         print("     The word is: ", guion, "\n")
-#         guess_letter = input("     Please, guess a letter: ")
