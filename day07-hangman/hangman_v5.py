@@ -1,5 +1,10 @@
 # Step 5
+"""
+This is the fifth version of the hangman game.
+The user can guess a letter or a word.
+The user can guess wrong 6 times and the game is over.
 
+"""
 import random
 import hangman_words
 import hangman_art
